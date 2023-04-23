@@ -1,7 +1,30 @@
 ﻿using PBL5.Domain.Item_3.Pessoa;
 using PBL5.Domain;
 using PBL5.Domain.Item_4;
+using PBL5.Domain.Item_2.Animal.Core;
+using PBL5.Domain.Item_2.Animal;
+using PBL5.Domain.Item_1.Veiculo.Core;
+using PBL5.Domain.Item_1.Veiculo;
 
+#region Item 1
+Console.WriteLine("---------------------Item 1---------------------");
+Veiculo civicSi = new Carro();
+Veiculo Cb1000 = new Moto();
+
+civicSi.Acelerar();
+Cb1000.Acelerar();
+Console.WriteLine("---------------------Fim Item 1---------------------");
+#endregion
+
+#region Item 2
+Console.WriteLine("---------------------Item 2---------------------");
+Animal cachorro = new Cachorro();
+Animal gatoCaipira = new GatoCaipira();
+
+cachorro.FazerBarulho();
+gatoCaipira.FazerBarulho();
+Console.WriteLine("-------------------Fim item 2-------------------");
+#endregion
 
 #region Item 3
 Console.WriteLine("---------------------Item 3---------------------");
